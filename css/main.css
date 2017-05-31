@@ -1,3 +1,66 @@
 /*
  * Estilos de tu proyecto
  */
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ body{
+ 	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+	margin: 0 auto;
+	font-size: 16px;
+ }
+
+ a{
+ 	color: whitesmoke;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ }
+
+ a:hover{
+ 	color: #18BC9C;
+ }
+
+/* navigation */
+nav{
+	background-color: #2c3e50;
+	color: whitesmoke;
+ 	top: 0;
+ 	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+  font-weight: 700;
+}
+
+.menu h1{	
+	margin: 0;
+	float: left;
+	padding: 30px 15px;
+    height: 80px;
+    line-height: 20px;
+}
+
+.link{
+	position: relative;
+	display: inline-block;
+	padding: 25px 10px;
+	left: 650px;
+	margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
