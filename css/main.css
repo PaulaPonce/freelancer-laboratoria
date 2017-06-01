@@ -32,10 +32,10 @@
  }
 
 .container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* navigation */
@@ -57,19 +57,28 @@ nav{
 .menu h1{	
 	margin: 0;
 	float: left;
-	padding: 30px 15px;
-    height: 80px;
-    line-height: 20px;
+	padding: 40px 15px;
+  height: 80px;
+  line-height: 20px;
 }
+
+.menu-list{
+  text-align: right;
+  padding: 30px 15px;
+  margin-left: 400px;
+}
+
+.menu-list li{
+  list-style: none;
+  display: inline;
+ }
 
 .link{
 	position: relative;
-	display: inline-block;
-	padding: 25px 10px;
-	left: 650px;
+	/*padding: 30px 10px;*/
 	margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
 }
 
  /* header */
@@ -84,23 +93,29 @@ header{
 
 header .container{
 	padding-top: 100px;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .fa-star{
+  color: whitesmoke;
 	padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 0;
 }
 .fa-star:after{
+  background-color: #18BC9C;
 	content: "\f005";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -.6em;
-    font-size: 2em;
-    padding: 0 .25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.6em;
+  font-size: 2em;
+  padding: 0 .25em;
 }
+.fa-star:before{
+  content: none;
+}
+
