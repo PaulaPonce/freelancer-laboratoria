@@ -2,105 +2,105 @@
  * Estilos de tu proyecto
  */
 *{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *:before,
 *:after{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
- body{
- 	font-family: 'Montserrat', sans-serif;
+body{
+	font-family: 'Montserrat', sans-serif;
 	/*font-family: 'Lato', sans-serif;*/
 	margin: 0 auto;
 	font-size: 16px;
- }
+}
 
- a{
- 	color: whitesmoke;
+a{
+	color: whitesmoke;
  	text-decoration: none;
  	font-weight: bold;
- }
+}
 
- a:hover{
+a:hover{
  	color: #18BC9C;
- }
+}
 
 .fa-star{
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 0;
+	padding: 0;
+	border: none;
+	border-top: solid 5px;
+	text-align: center;
+	max-width: 250px;
+	margin: 25px auto 0;
 }
 .fa-star:after{
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -.6em;
-  font-size: 2em;
-  padding: 0 .25em;
+	content: "\f005";
+	font-family: FontAwesome;
+	display: inline-block;
+	position: relative;
+	top: -.6em;
+	font-size: 2em;
+	padding: 0 .25em;
 }
 .fa-star:before{
-  content: none;
+	content: none;
 }
 
 .container{
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* Navigation */
 nav{
 	background-color: #2c3e50;
-  color: whitesmoke;
+	color: whitesmoke;
  	top: 0;
  	position: fixed;
 	width: 100%;
-  height: 15%;
+	height: 15%;
 	z-index: 1000;
 }
 
 .menu{
-  padding: 14px 70px;
-  overflow: auto;
-  font-weight: 700;
+	padding: 14px 70px;
+	overflow: auto;
+	font-weight: 700;
 }
 
 .menu h1{	
 	margin: 0;
 	float: left;
 	padding: 40px 15px;
-  height: 80px;
-  line-height: 20px;
+	height: 80px;
+	line-height: 20px;
 }
 
 .menu-list{
-  text-align: right;
-  padding: 30px 15px;
-  margin-left: 400px;
+	text-align: right;
+	padding: 30px 15px;
+	margin-left: 400px;
 }
 
 .menu-list li{
-  list-style: none;
-  display: inline;
+	list-style: none;
+	display: inline;
  }
 
 .link{
 	position: relative;
 	/*padding: 30px 10px;*/
 	margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
 }
 
  /* Header */
@@ -115,97 +115,97 @@ header{
 
 header .container{
 	padding-top: 100px;
-  padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 #maincontent{
-  margin-top: 92px;
+	margin-top: 92px;
 }
 
 #maincontent .fa-star{
-  color: whitesmoke;
+	color: whitesmoke;
 }
 #maincontent .fa-star:after{
-  background-color: #18BC9C;
+	background-color: #18BC9C;
 }
 
 /* Portfolio Section*/
 #portfolio .grid-container .row .col-12 h1{
-  color: #2c3e50;
-  text-align: center;
-  font-weight: 700;
+	color: #2c3e50;
+	text-align: center;
+	font-weight: 700;
 } 
 
 #portfolio .grid-container .row .col-4 img{
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
 }
 
 #portfolio .grid-container .row .col-4 img:hover{
-  opacity: 0.7;
-  border: 10px solid #18BC9C;
+	opacity: 0.7;
+	border: 10px solid #18BC9C;
 }
 
 #portfolio .fa-star{
-  color: #2c3e50;
+	color: #2c3e50;
 }
 
 #portfolio .fa-star:after{
-  background-color: white;
+	background-color: white;
 }
 
 /* About Section*/
 #about{
-  background-color: #18BC9C;
+	background-color: #18BC9C;
 }
 #about .grid-container .row .col-12 h1{
-  color: whitesmoke;
-  text-align: center;
-  font-weight: 700;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: 700;
 }
 
 #about .fa-star{
-  color: whitesmoke;
+	color: whitesmoke;
 }
 
 #about .fa-star:after{
-  background-color: #18BC9C;
+	background-color: #18BC9C;
 }
 
 #about .grid-container .row .col-6 p{
-  color: whitesmoke;
-  text-align: left;
+	color: whitesmoke;
+	text-align: left;
 }
 
 .btn-about{
-  background-color: #18BC9C;
-  color: whitesmoke;
-  opacity: 0.8;
-  border: 1px solid whitesmoke;
-  padding: 10px;
-  text-align: center;
-  margin: 0 42%;
+	background-color: #18BC9C;
+	color: whitesmoke;
+	opacity: 0.8;
+	border: 1px solid whitesmoke;
+	padding: 10px;
+	text-align: center;
+	margin: 0 42%;
 }
 
 .btn-about:hover{
-  background-color: whitesmoke;
-  color: #18BC9C;
+	background-color: whitesmoke;
+	color: #18BC9C;
 }
 
 /* Contact Section*/
 #contact .grid-container .row .col-12 h1{
-  color: #2c3e50;;
-  text-align: center;
-  font-weight: 700;
+	color: #2c3e50;;
+	text-align: center;
+	font-weight: 700;
 }
 
 #contact .fa-star{
-  color: #2c3e50;
+	color: #2c3e50;
 }
 
 #contact .fa-star:after{
-  background-color: white;
+	background-color: white;
 }
 
 /*
@@ -216,58 +216,59 @@ header .container{
 */
 
 .contact-form{
-  color: #555;
-  width: 100%;
-  height: 40px;
-  padding: 6px 12px;
+	color: #555;
+	width: 100%;
+	height: 40px;
+	padding: 6px 12px;
 }
 
 .input-form-group{
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  padding-bottom: .5em;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-bottom: .5em;
 }
 
 .input-form-group input{
-  border: none;
-  font-size: 1.2em;
-  padding: 10px
+	border: none;
+	font-size: 1.2em;
+	padding: 10px
 }
 
 .btn-send{
-  background-color: #18BC9C;
-  color: whitesmoke;
-  border-radius: 5px;
-  padding: 10px 15px;
-  text-align: center;
-  margin: 0;
-  margin-left: 15px;
+	background-color: #18BC9C;
+	color: whitesmoke;
+	border: 1px solid #18BC9C;
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-align: center;
+	margin: 0;
+	margin-left: 15px;
 }
 
 .btn-send:hover{
-  background-color: #10806a;
+	background-color: #10806a;
 }
 
 /* Footer */
 .footer-above{
-  background-color: #2c3e50;
-  color: whitesmoke;
-  top: 0;
-  width: 100%;
-  height: 30%;
-  z-index: 1000;
-  text-align: center;
-  padding-left: 0;
+	background-color: #2c3e50;
+	color: whitesmoke;
+	top: 0;
+	width: 100%;
+	height: 30%;
+	z-index: 1000;
+	text-align: center;
+	padding-left: 0;
 }
 footer p, footer h3{
-  text-align: center;
+	text-align: center;
 }
 .list-inline{
-  padding-left: 0;
+	padding-left: 0;
 }
 .list-inline li{
-  list-style: none;
-  display: inline;
+	list-style: none;
+	display: inline;
 }
 
 .circle-icon{
@@ -282,7 +283,18 @@ footer p, footer h3{
 }
 
 .circle-icon:hover{
-  background-color: whitesmoke;
+	background-color: whitesmoke;
 }
 
+.bootstrap-link{
+	font-weight: 400;
+}
+.bootstrap-link:hover{
+	text-decoration: underline;
+}
+
+.footer-below{
+    background-color: #233140;
+    color: whitesmoke;
+}
 /*rgba(24,188,156,.9);*/
