@@ -31,6 +31,27 @@
  	color: #18BC9C;
  }
 
+.fa-star{
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 0;
+}
+.fa-star:after{
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.6em;
+  font-size: 2em;
+  padding: 0 .25em;
+}
+.fa-star:before{
+  content: none;
+}
+
 .container{
   padding-right: 15px;
   padding-left: 15px;
@@ -45,6 +66,7 @@ nav{
  	top: 0;
  	position: fixed;
 	width: 100%;
+  height: 15%;
 	z-index: 1000;
 }
 
@@ -86,8 +108,8 @@ header{
 	background-color: #18BC9C;
  	color: whitesmoke;
 	width: 100%;
-	position: relative;
-	top: 92px;
+	/*position: relative;
+	top: 92px;*/
 	text-align: center;
 }
 
@@ -96,26 +118,58 @@ header .container{
   padding-bottom: 50px;
 }
 
-.fa-star{
-  color: whitesmoke;
-	padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 0;
-}
-.fa-star:after{
-  background-color: #18BC9C;
-	content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -.6em;
-  font-size: 2em;
-  padding: 0 .25em;
-}
-.fa-star:before{
-  content: none;
+#maincontent{
+  margin-top: 92px;
 }
 
+#maincontent .fa-star{
+  color: whitesmoke;
+}
+#maincontent .fa-star:after{
+  background-color: #18BC9C;
+}
+
+/* portfolio */
+#portfolio .grid-container .row .col-12 h1{
+  color: #2c3e50;
+  text-align: center;
+  font-weight: 700;
+} 
+/*
+#portfolio .grid-container .row .col-4 .caption{
+  background: rgba(24,188,156,.9);
+  opacity: 0;
+}
+#portfolio .grid-container .row .col-4 .caption .caption-content{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff;
+}
+*/
+#portfolio .grid-container .row .col-4 img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+#portfolio .grid-container .row .col-4 img:hover{
+  opacity: 0.7;
+  background-color: rgba(24,188,156,.9);
+}
+
+#portfolio .fa-star{
+  color: #2c3e50;
+}
+
+#portfolio .fa-star:after{
+  background-color: white;
+}
+
+#portfolio .grid-container .row .col-4{
+ margin-top: 0;
+}
