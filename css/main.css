@@ -1,5 +1,5 @@
 /*
- * Estilos de tu proyecto
+ * Estilos del proyecto
  */
 *{
 	-webkit-box-sizing: border-box;
@@ -16,53 +16,16 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
-	/*font-family: 'Lato', sans-serif;*/
 	margin: 0 auto;
 	font-size: 16px;
 }
 
-a{
-	color: whitesmoke;
- 	text-decoration: none;
- 	font-weight: bold;
-}
-
-a:hover{
- 	color: #18BC9C;
-}
-
-.fa-star{
-	padding: 0;
-	border: none;
-	border-top: solid 5px;
-	text-align: center;
-	max-width: 250px;
-	margin: 25px auto 0;
-}
-.fa-star:after{
-	content: "\f005";
-	font-family: FontAwesome;
-	display: inline-block;
-	position: relative;
-	top: -.6em;
-	font-size: 2em;
-	padding: 0 .25em;
-}
-.fa-star:before{
-	content: none;
-}
-
-.container{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
+/* *** Sections *** */
 
 /* Navigation */
 nav{
 	background-color: #2c3e50;
-	color: whitesmoke;
+	padding: 25px 0;
  	top: 0;
  	position: fixed;
 	width: 100%;
@@ -71,22 +34,24 @@ nav{
 }
 
 .menu{
-	padding: 14px 70px;
+	padding-left: 100px;
+	padding-right: 100px;
 	overflow: auto;
 	font-weight: 700;
 }
 
-.menu h1{	
+.menu h1{
+	font-size: 1.7em;
 	margin: 0;
 	float: left;
-	padding: 40px 15px;
+	padding: 20px 15px;
 	height: 80px;
 	line-height: 20px;
 }
 
 .menu-list{
 	text-align: right;
-	padding: 30px 15px;
+	padding: 0 15px;
 	margin-left: 400px;
 }
 
@@ -96,8 +61,9 @@ nav{
  }
 
 .link{
+	font-size: .9em;
+	padding: 10px 15px;
 	position: relative;
-	/*padding: 30px 10px;*/
 	margin-top: 8px;
 	margin-right: 15px;
 	margin-bottom: 8px;
@@ -106,36 +72,29 @@ nav{
  /* Header */
 header{
 	background-color: #18BC9C;
- 	color: whitesmoke;
 	width: 100%;
-	/*position: relative;
-	top: 92px;*/
 	text-align: center;
 }
 
-header .container{
+.maincontent{
 	padding-top: 100px;
-	padding-bottom: 50px;
-}
-
-#maincontent{
 	margin-top: 92px;
 }
 
-#maincontent .fa-star{
-	color: whitesmoke;
+.maincontent h1{
+	font-size: 4em;
 }
-#maincontent .fa-star:after{
-	background-color: #18BC9C;
+
+.maincontent span{
+	font-size: 1.4em;
+}
+
+.maincontent img{
+	width: 256px;
+	margin: 0 auto 20px;
 }
 
 /* Portfolio Section*/
-#portfolio .grid-container .row .col-12 h1{
-	color: #2c3e50;
-	text-align: center;
-	font-weight: 700;
-} 
-
 #portfolio .grid-container .row .col-4 img{
 	width: 100%;
 	height: 100%;
@@ -147,45 +106,28 @@ header .container{
 	border: 10px solid #18BC9C;
 }
 
-#portfolio .fa-star{
-	color: #2c3e50;
-}
-
-#portfolio .fa-star:after{
-	background-color: white;
-}
-
 /* About Section*/
 #about{
 	background-color: #18BC9C;
 }
-#about .grid-container .row .col-12 h1{
-	color: whitesmoke;
-	text-align: center;
-	font-weight: 700;
+
+.col-margin-16{
+	margin-left: 16.66666667%;
 }
 
-#about .fa-star{
-	color: whitesmoke;
-}
-
-#about .fa-star:after{
-	background-color: #18BC9C;
-}
-
-#about .grid-container .row .col-6 p{
-	color: whitesmoke;
+#about .grid-container .row .col-4 p{
+	font-size: 20px;
 	text-align: left;
 }
 
 .btn-about{
 	background-color: #18BC9C;
-	color: whitesmoke;
-	opacity: 0.8;
-	border: 1px solid whitesmoke;
-	padding: 10px;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px 20px;
 	text-align: center;
-	margin: 0 42%;
+	margin: 0 40%;
 }
 
 .btn-about:hover{
@@ -194,31 +136,13 @@ header .container{
 }
 
 /* Contact Section*/
-#contact .grid-container .row .col-12 h1{
-	color: #2c3e50;;
-	text-align: center;
-	font-weight: 700;
+.col-margin-20{
+	margin-left: 20%;
 }
-
-#contact .fa-star{
-	color: #2c3e50;
-}
-
-#contact .fa-star:after{
-	background-color: white;
-}
-
-/*
-.form-group{
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-*/
 
 .contact-form{
 	color: #555;
 	width: 100%;
-	height: 40px;
 	padding: 6px 12px;
 }
 
@@ -234,15 +158,21 @@ header .container{
 	padding: 10px
 }
 
+.input-form-group input:focus {
+  outline: none;
+}
+
 .btn-send{
 	background-color: #18BC9C;
-	color: whitesmoke;
-	border: 1px solid #18BC9C;
+	color: white;
+	font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #18BC9C;
 	border-radius: 5px;
-	padding: 10px 15px;
+	padding: 10px 16px;
 	text-align: center;
 	margin: 0;
-	margin-left: 15px;
+	margin-left: 22%;
 }
 
 .btn-send:hover{
@@ -252,7 +182,6 @@ header .container{
 /* Footer */
 .footer-above{
 	background-color: #2c3e50;
-	color: whitesmoke;
 	top: 0;
 	width: 100%;
 	height: 30%;
@@ -260,12 +189,15 @@ header .container{
 	text-align: center;
 	padding-left: 0;
 }
+
 footer p, footer h3{
 	text-align: center;
 }
+
 .list-inline{
 	padding-left: 0;
 }
+
 .list-inline li{
 	list-style: none;
 	display: inline;
@@ -295,6 +227,5 @@ footer p, footer h3{
 
 .footer-below{
     background-color: #233140;
-    color: whitesmoke;
+    font-size: 14px;
 }
-/*rgba(24,188,156,.9);*/

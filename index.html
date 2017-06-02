@@ -10,7 +10,7 @@
 </head>
 <body id="page-top">
 	<!-- Navigation -->
-	<nav class="navbar">
+	<nav id="navbar" class="white">
 		<div class="menu container">
 			<a href="#page-top">
 				<h1 class="text-uppercase">Start Bootstrap</h1>
@@ -29,25 +29,29 @@
 		</div>
 	</nav>
 	<!-- Header -->
-	<header>
-		<div id="maincontent" class="container">
-			<img src="assets/images/profile.png" alt="Profile">
-			<h1 class="text-uppercase">Start Bootstrap</h1>
-			<hr class="fa-star">
-				<!--<i class="fa fa-star" aria-hidden="true"></i>-->
-			</hr>		
-			<span>Web Developer - Graphic Artist - User Experience Designer</span>
+	<header id="header" class="white">
+		<div class="maincontent container grid-container pb-100">
+			<div class="row">
+				<div class="col-12">
+					<img src="assets/images/profile.png" alt="Profile">
+					<h1 class="text-uppercase">Start Bootstrap</h1>
+					<hr class="fa-star white"></hr>										
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<span>Web Developer - Graphic Artist - User Experience Designer</span>
+				</div>
+			</div>
 		</div>
 	</header>
 	<!-- Portfolio Section-->
-	<section id="portfolio">
-		<div class="grid-container">
+	<section id="portfolio" class="pt-50 pb-100">
+		<div class="container grid-container">
 			<div class="row">
 				<div class="col-12">
-					<h1 class="text-uppercase">Portfolio</h1>
-					<hr class="fa-star">
-						<!--<i class="fa fa-star" aria-hidden="true"></i>-->
-					</hr>	
+					<h1 class="text-uppercase dark-blue">Portfolio</h1>
+					<hr class="fa-star dark-blue"></hr>	
 				</div>	
 			</div>
 			<div class="row">
@@ -75,23 +79,21 @@
 		</div>	
 	</section>
 	<!-- About Section-->
-	<section id="about" class="container">
+	<section id="about" class="container white pt-50 pb-100">
 		<div class="grid-container">
 			<div class="row">
 				<div class="col-12">
 					<h1 class="text-uppercase">About</h1>
-					<hr class="fa-star">
-						<!--<i class="fa fa-star" aria-hidden="true"></i>-->
-					</hr>
+					<hr class="fa-star white"></hr>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-6">
+				<div class="col-4 col-margin-16">
 					<p>
 						Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
 					</p>
 				</div>
-				<div class="col-6">
+				<div class="col-4">
 					<p>
 						Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
 					</p>
@@ -99,24 +101,22 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<button class="btn-about" id="download"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</button>
+					<button class="btn-about white" id="download"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</button>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Contact Section -->
-	<section id="contact">
+	<section id="contact" class="pt-50 pb-100">
 		<div class="grid-container container">
 			<div class="row">
 				<div class="col-12">
-					<h1 class="text-uppercase">Contact Me</h1>
-					<hr class="fa-star">
-						<!--<i class="fa fa-star" aria-hidden="true"></i>-->
-					</hr>
+					<h1 class="text-uppercase dark-blue">Contact Me</h1>
+					<hr class="fa-star dark-blue"></hr>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12 form-group">
+				<div class="col-8 col-margin-20">
 					<form class="contact-form">
 						<div class="row">
 							<div class="col-12 input-form-group">
@@ -141,17 +141,18 @@
 				
 					</form>
 				</div>
-				<div class="row">
+				
+			</div>
+			<div class="row">
 					<div class="col-12">
 						<button class="btn-send" id="send">Send</button>
 					</div>
 				</div>
-			</div>
 		</div>
 	</section>
 	<!-- Footer -->
 	<footer id="footer">
-		<div class="footer-above">
+		<div class="footer-above white">
 			<div class="grid-container container">
 				<div class="row">
 					<div class="col-4">
@@ -188,7 +189,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-below">
+		<div class="footer-below white">
 			<div class="grid-container container">
 				<div class="row">
 					<div class="col-12">
